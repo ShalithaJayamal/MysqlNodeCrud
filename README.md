@@ -21,15 +21,15 @@ authentically identify the “command” and execute it
 ### Objectives
 
 **Sender**
-	- Generate a random salt.
-	- Generate a data encryption key using the SHA hash function algorithm applied to the
-	  shared secret and salt as follows: dpk=sha256(secret +salt). secret+salt here refersto any
-	  combination function of your choice of the secret and salt such as arithmetic addition,
-	  string appending (concatenation), etc.
-	- Use AES to encrypted the command with dpk: cipher=aes_enc(command, dpk). The
-	  command here is the message that identify the command. It is up to you to define its
-          format if needed, and any parameter may also be included if needed.
-	- Send (cipher, salt) to the receiver Micro:bit via the radio.
+- Generate a random salt.
+- Generate a data encryption key using the SHA hash function algorithm applied to the
+shared secret and salt as follows: dpk=sha256(secret +salt). secret+salt here refersto any
+combination function of your choice of the secret and salt such as arithmetic addition,
+string appending (concatenation), etc.
+- Use AES to encrypted the command with dpk: cipher=aes_enc(command, dpk). The
+command here is the message that identify the command. It is up to you to define its
+format if needed, and any parameter may also be included if needed.
+- Send (cipher, salt) to the receiver Micro:bit via the radio.
 
 **Reciever**
 	- Receive cipher  and salt.
