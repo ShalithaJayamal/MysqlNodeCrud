@@ -76,7 +76,7 @@ Requirements for the software and other tools to build
 
   **L M B Galaallu Vitharanalage** 
   **Furhan Imtiaz** 
-  **Sibtain Safdar**
+  **Sibtain  Safdar**
 
 
 ## References
