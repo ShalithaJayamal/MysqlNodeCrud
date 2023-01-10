@@ -74,9 +74,9 @@ Requirements for the software and other tools to build
 
 ## Authors
 
-  **L M B Galaallu Vitharanalage** 
-  **Furhan Imtiaz** 
-  **Sibtain  Safdar**
+**L M B Galaallu Vitharanalage** 
+**Furhan Imtiaz** 
+**Sibtain  Safdar**
 
 
 ## References
