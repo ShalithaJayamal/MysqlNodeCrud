@@ -32,7 +32,7 @@ authentically identify the “command” and execute it
 	- Send (cipher, salt) to the receiver Micro:bit via the radio.
 
 **Reciever**
-	- Receive cipher and salt.
+	- Receive cipher  and salt.
 	- Generate a data encryption key using SHA hash of the shared secret and salt, dpk=sha256
 	  (secret+salt).
 	- Decrypt the cipher, command=aes_dec(cipher, dpk).
