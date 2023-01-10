@@ -1,5 +1,4 @@
-# Lightweight Authentic Wireless Communications for Micro:Bit
-IoT Devic
+# Lightweight Authentic Wireless Communications for Micro:Bit IoT Devic
 
 This is the task of implement an authentication system and encrypted wireless communications
 between two Micro:bits using the nRF radio (uBit.radio) and C/C++ programming language. This
